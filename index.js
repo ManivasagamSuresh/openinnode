@@ -4,9 +4,16 @@ const cors = require("cors");
 const user = require("./user");
 
 app.use(express.json());
+// app.use(cors({
+//     origin:"http://localhost:3000"
+// }))
+
 app.use(cors({
-    origin:"http://localhost:3000"
+    origin:"https://warm-pie-e03bf2.netlify.app/"
 }))
+
+
+
 
 app.use("/user",user)
 
