@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.23.0",
+    "@babel/node": "^7.22.19",
     "@babel/preset-env": "^7.22.20"
   },
   "scripts": {
