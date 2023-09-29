@@ -9,7 +9,7 @@ app.use(express.json());
 // }))
 
 app.use(cors({
-    origin:"https://warm-pie-e03bf2.netlify.app/"
+    origin:"https://warm-pie-e03bf2.netlify.app"
 }))
 
 
